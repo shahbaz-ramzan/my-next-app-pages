@@ -21,7 +21,7 @@ return (
       <Link href="/">Contact</Link>
     </li>
     <li>
-      <Link href="/">About</Link>
+      <Link href="/aboutus">About</Link>
     </li>
     <li>
       <Link href="/tribute">Tribute</Link>
