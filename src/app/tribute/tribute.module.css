@@ -1,0 +1,26 @@
+.wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(127, 211, 127); */
+    width: 100%;
+    /* background-color:goldenrod; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    /* background-color: blue; */
+    /* color: white; */
+    
+}
+
+/* .responsive{
+    width: 100%;
+    height: auto;
+} */

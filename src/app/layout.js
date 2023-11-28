@@ -27,7 +27,7 @@ return (
       <Link href="/hero">My Hero</Link>
     </li>
     <li>
-      <Link href="/">page-2</Link>
+      <Link href="/tribute">Tribute</Link>
     </li>
     <li>
       <Link href="/">page-3</Link>
