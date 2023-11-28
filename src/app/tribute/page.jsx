@@ -9,7 +9,7 @@ return (
             <div className={styles.container}>
 
                 <div>
-                    <p>Father of the Nation Quaid-e-Azam Muhammad Ali Jinnah’s achievement as the founder of Pakistan,
+                    <p className={styles.paragraph}><strong>Father of the Nation Quaid-e-Azam Muhammad Ali Jinnah’s</strong> achievement as the founder of Pakistan,
                         dominates everything else he did in his long and crowded public life spanning some 42 years.
                         Yet, by
                         any standard, his was an eventful life, his personality multidimensional and his achievements in
@@ -30,7 +30,7 @@ return (
                         initially
                         as one of the leaders, but later, since 1947, as the only prominent leader- the Quaid-e-Azam.
                     </p>
-                    <p>
+                    <p className={styles.paragraph}>
                         For over thirty years, he had guided their affairs; he had given expression, coherence and
                         direction
                         to their legitimate aspirations and cherished dreams; he had formulated these into concrete
@@ -54,8 +54,8 @@ return (
             </div>
 
             <div>
-                <h2>EARLY LIFE</h2>
-                <p>
+                <h2 className={styles.headings}>EARLY LIFE</h2>
+                <p className={styles.paragraph}>
                     Born on December 25, 1876, in a prominent mercantile family in Karachi and educated at the Sindh
                     Madrassat-ul-Islam and the Christian Mission School at his birth place, Jinnah joined the Lincoln’s
                     Inn
@@ -77,8 +77,8 @@ return (
                     Here, at the Calcutta Congress session (December 1906), he also made his first political speech in
                     support of the resolution on self-government.
                 </p>
-                <h2>POLITICAL CAREER</h2>
-                <p>Three years later, in January 1910, Jinnah was elected to the newly-constituted Imperial Legislative
+                <h2 className={styles.headings}>POLITICAL CAREER</h2>
+                <p className={styles.paragraph}>Three years later, in January 1910, Jinnah was elected to the newly-constituted Imperial Legislative
                     Council. All through his parliamentary career, which spanned some four decades, he was probably the
                     most
                     powerful voice in the cause of Indian freedom and Indian rights. Jinnah, who was also the first
@@ -91,7 +91,7 @@ return (
                     felt, “is a very clever man, and it is, of course, an outrage that such a man should have no chance
                     of
                     running the affairs of his own country.”</p>
-                <p>For about three decades since his entry into politics in 1906, Jinnah passionately believed in and
+                <p className={styles.paragraph}>For about three decades since his entry into politics in 1906, Jinnah passionately believed in and
                     assiduously worked for Hindu-Muslim unity. Gokhale, the foremost Hindu leader before Gandhi, had
                     once
                     said of him, “He has the true stuff in him and that freedom from all sectarian prejudice which will
@@ -102,7 +102,7 @@ return (
                     Pact- the only pact ever signed between the two political organizations, the Congress and the
                     All-India
                     Muslim League, representing, as they did, the two major communities in the subcontinent.</p>
-                <p>The Congress-League scheme embodied in this pact was to become the basis for the Montagu-Chemlsford
+                <p className={styles.paragraph}>The Congress-League scheme embodied in this pact was to become the basis for the Montagu-Chemlsford
                     Reforms, also known as the Act of 1919. In retrospect, the Luckhnow Pact represented a milestone in
                     the
                     evolution of Indian politics. For one thing, it conceded Muslims the right to separate electorate,
@@ -120,14 +120,14 @@ return (
                     Bombay Branch of the Home Rule League. More importantly, because of his key-role in the
                     Congress-League
                     entente at Luckhnow, he was hailed as the ambassador, of Hindu-Muslim unity.</p>
-                <h2>CONSTITUTIONAL STRUGGLE</h2>
-                <p>In subsequent years, however, he felt dismayed at the injection of violence into politics. Since
+                <h2 className={styles.headings}>CONSTITUTIONAL STRUGGLE</h2>
+                <p className={styles.paragraph}>In subsequent years, however, he felt dismayed at the injection of violence into politics. Since
                     Jinnah
                     stood for “ordered progress”, moderation, gradualism and constitutionalism, he felt that political
                     violence was not the pathway to national liberation but, the dark alley to disaster and destruction.
 
                 </p>
-                <p>In the ever-growing frustration among the masses caused by colonial rule, there was ample cause for
+                <p className={styles.paragraph}>In the ever-growing frustration among the masses caused by colonial rule, there was ample cause for
                     extremism. But, Gandhi’s doctrine of non-cooperation, Jinnah felt, even as Rabindranath
                     Tagore(1861-1941) did also feel, was at best one of negation and despair: it might lead to the
                     building
@@ -141,7 +141,7 @@ return (
                     and that any extra-constitutional methods could only lead to political violence, lawlessness and
                     chaos,
                     without bringing India nearer to the threshold of freedom.</p>
-                <p>The future course of events was not only to confirm Jinnah’s worst fears, but also to prove him
+                <p className={styles.paragraph}>The future course of events was not only to confirm Jinnah’s worst fears, but also to prove him
                     right.
                     Although Jinnah left the Congress soon thereafter, he continued his efforts towards bringing about a
                     Hindu-Muslim entente, which he rightly considered “the most vital condition of Swaraj”. However,
@@ -158,8 +158,8 @@ return (
                     though, the Nehru Report (1928), which represented the Congress-sponsored proposals for the future
                     constitution of India, negated the minimum Muslim demands embodied in the Delhi Muslim Proposals.
                 </p>
-                <h2>MUSLIM LEAGUE REORGANIZED</h2>
-                <p>Thus, the task that awaited Jinnah was anything but easy. The Muslim League was dormant: even its
+                <h2 className={styles.headings}>MUSLIM LEAGUE REORGANIZED</h2>
+                <p className={styles.paragraph}>Thus, the task that awaited Jinnah was anything but easy. The Muslim League was dormant: even its
                     provincial organizations were, for the most part, ineffective and only nominally under the control
                     of
                     the central organization. Nor did the central body have any coherent policy of its own till the
@@ -172,7 +172,7 @@ return (
                     Extremely frustrating as the situation was, the only consolation Jinnah had at this juncture was in
                     Allama Iqbal (1877-1938), the poet-philosopher, who stood steadfast by him and helped to chart the
                     course of Indian politics from behind the scene.</p>
-                <p>Undismayed by this bleak situation, Jinnah devoted himself to the sole purpose of organizing the
+                <p className={styles.paragraph}>Undismayed by this bleak situation, Jinnah devoted himself to the sole purpose of organizing the
                     Muslims
                     on one platform. He embarked upon country-wide tours. He pleaded with provincial Muslim leaders to
                     sink
@@ -187,8 +187,8 @@ return (
                     early 1937. He was, it seemed, struggling against time to make Muslim India a power to be reckoned
                     with.
                 </p>
-                <h2>THE NEW AWAKENING</h2>
-                <p>As a result of Jinnah’s ceaseless efforts, the Muslims awakened from what Professor Baker calls
+                <h2 className={styles.headings}>THE NEW AWAKENING</h2>
+                <p className={styles.paragraph}>As a result of Jinnah’s ceaseless efforts, the Muslims awakened from what Professor Baker calls
                     (their)
                     “unreflective silence” (in which they had so complacently basked for long decades), and to “the
                     spiritual essence of nationality” that had existed among them for a pretty long time. Roused by the
@@ -210,8 +210,8 @@ return (
                     to their innermost yearnings, these turned out to be in favour of a separate Muslim nationhood and
                     of a
                     separate Muslim state.</p>
-                <h2>DEMAND FOR PAKISTAN</h2>
-                <p>“We are a nation”, they claimed in the ever eloquent words of the Quaid-i-Azam- “We are a nation with
+                <h2 className={styles.headings}>DEMAND FOR PAKISTAN</h2>
+                <p className={styles.paragraph}>“We are a nation”, they claimed in the ever eloquent words of the Quaid-i-Azam- “We are a nation with
                     our
                     own distinctive culture and civilization, language and literature, art and architecture, names and
                     nomenclature, sense of values and proportion, legal laws and moral code, customs and calendar,
@@ -224,7 +224,7 @@ return (
                     from
                     India: on the other, it heralded an era of Islamic renaissance and creativity in which the Indian
                     Muslims were to be active participants. The Hindu reaction was quick, bitter, and malicious.</p>
-                <p>Equally hostile were the British to the Muslim demand, their hostility having stemmed from their
+                <p className={styles.paragraph}>Equally hostile were the British to the Muslim demand, their hostility having stemmed from their
                     belief
                     that the unity of India was their main achievement and their foremost contribution. The irony was
                     that
@@ -238,8 +238,8 @@ return (
                     remarkable strategy in the delicate negotiations that followed the formulation of the Pakistan
                     demand,
                     particularly in the post-war period, that made Pakistan inevitable.</p>
-                <h2>CRIPPS SCHEME</h2>
-                <p>While the British reaction to the Pakistan demand came in the form of the Cripps offer of April,
+                <h2 className={styles.headings}>CRIPPS SCHEME</h2>
+                <p className={styles.paragraph}>While the British reaction to the Pakistan demand came in the form of the Cripps offer of April,
                     1942,
                     which conceded the principle of self-determination to provinces on a territorial basis, the Rajaji
                     Formula (called after the eminent Congress leader C.Rajagopalacharia, which became the basis of
@@ -257,7 +257,7 @@ return (
                     divided between two parties- the Congress and the League- and that the central issue in Indian
                     politics
                     was Pakistan.</p>
-                <p>These negotiations began with the arrival, in March 1946, of a three-member British Cabinet Mission.
+                <p className={styles.paragraph}>These negotiations began with the arrival, in March 1946, of a three-member British Cabinet Mission.
                     The
                     crucial task with which the Cabinet Mission was entrusted was that of devising in consultation with
                     the
@@ -275,7 +275,7 @@ return (
                     foundation of Pakistan”, and induced the Muslim League Council to accept the Plan in June 1946; and
                     this
                     he did much against the calculations of the Congress and to its utter dismay.</p>
-                <p>Tragically though, the League’s acceptance was put down to its supposed weakness and the Congress put
+                <p className={styles.paragraph}>Tragically though, the League’s acceptance was put down to its supposed weakness and the Congress put
                     up
                     a posture of defiance, designed to swamp the League into submitting to its dictates and its
                     interpretations of the plan. Faced thus, what alternative had Jinnah and the League but to rescind
@@ -285,8 +285,8 @@ return (
                     need be) to wrest Pakistan. The way Jinnah maneuvered to turn the tide of events at a time when all
                     seemed lost indicated, above all, his masterly grasp of the situation and his adeptness at making
                     strategic and tactical moves.</p>
-                <h2>PARTITION PLAN</h2>
-                <p>Partition Plan By the close of 1946, the communal riots had flared up to murderous heights, engulfing
+                <h2 className={styles.headings}>PARTITION PLAN</h2>
+                <p className={styles.paragraph}>Partition Plan By the close of 1946, the communal riots had flared up to murderous heights, engulfing
                     almost the entire subcontinent. The two peoples, it seemed, were engaged in a fight to the finish.
                     The
                     time for a peaceful transfer of power was fast running out. Realizing the gravity of the situation.
@@ -297,8 +297,8 @@ return (
                     was
                     duly accepted by the three Indian parties to the dispute- the Congress the League and the Akali Dal
                     (representing the Sikhs).</p>
-                <h2>LEADER OF A FREE NATION</h2>
-                <p>In recognition of his singular contribution, Quaid-i-Azam Muhammad Ali Jinnah was nominated by the
+                <h2 className={styles.headings}>LEADER OF A FREE NATION</h2>
+                <p className={styles.paragraph}>In recognition of his singular contribution, Quaid-i-Azam Muhammad Ali Jinnah was nominated by the
                     Muslim
                     League as the Governor-General of Pakistan, while the Congress appointed Mountbatten as India’s
                     first
@@ -311,7 +311,7 @@ return (
                     This, alongwith the en masse migration of the Hindu and Sikh business and managerial classes, left
                     the
                     economy almost shattered.</p>
-                <p>The treasury was empty, India having denied Pakistan the major share of its cash balances. On top of
+                <p className={styles.paragraph}>The treasury was empty, India having denied Pakistan the major share of its cash balances. On top of
                     all
                     this, the still unorganized nation was called upon to feed some eight million refugees who had fled
                     the
@@ -330,7 +330,7 @@ return (
                     he
                     was more than a mere Governor-General: he was the Quaid-i-Azam who had brought the State into being.
                 </p>
-                <p>In the ultimate analysis, his very presence at the helm of affairs was responsible for enabling the
+                <p className={styles.paragraph}>In the ultimate analysis, his very presence at the helm of affairs was responsible for enabling the
                     newly
                     born nation to overcome the terrible crisis on the morrow of its cataclysmic birth. He mustered up
                     the
@@ -366,8 +366,8 @@ return (
                     of Kalat which seemed problematical and carried on negotiations with Lord Mountbatten for the
                     settlement
                     of the Kashmir Issue.</p>
-                <h2>THE QUAID’S LAST MESSAGE</h2>
-                <p>It was, therefore, with a sense of supreme satisfaction at the fulfillment of his mission that Jinnah
+                <h2 className={styles.headings}>THE QUAID’S LAST MESSAGE</h2>
+                <p className={styles.paragraph}>It was, therefore, with a sense of supreme satisfaction at the fulfillment of his mission that Jinnah
                     told the nation in his last message on 14 August, 1948: “The foundations of your State have been
                     laid
                     and it is now for you to build and build as quickly and as well as you can”. In accomplishing the
@@ -377,7 +377,7 @@ return (
                     had, to quote Richard Symons, “contributed more than any other man to Pakistan’s survival”. He died
                     on
                     11 September, 1948.</p>
-                <p>A man such as Jinnah, who had fought for the inherent rights of his people all through his life and
+                <p className={styles.paragraph}>A man such as Jinnah, who had fought for the inherent rights of his people all through his life and
                     who
                     had taken up the somewhat unconventional and the largely misinterpreted cause of Pakistan, was bound
                     to
@@ -387,7 +387,7 @@ return (
                     tributes
                     paid to any one in modern times, some of them even from those who held a diametrically opposed
                     viewpoint.</p>
-                <p>The Aga Khan considered him “the greatest man he ever met”, Beverley Nichols, the author of `Verdict
+                <p className={styles.paragraph}>The Aga Khan considered him “the greatest man he ever met”, Beverley Nichols, the author of `Verdict
                     on
                     India’, called him “the most important man in Asia”, and Dr. Kailashnath Katju, the West Bengal
                     Governor

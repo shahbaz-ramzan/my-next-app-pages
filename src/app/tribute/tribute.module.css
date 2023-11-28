@@ -16,6 +16,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 
 }
 
@@ -23,7 +24,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and (max-width:1000px){
+    @media screen and (max-width:1300px){
         flex-direction: column;
     }
+}
+
+.headings{
+    font-size: larger;
+    color: #185E3B;
+    text-decoration: solid;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.paragraph{
+    font-size: large;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
 }

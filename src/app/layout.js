@@ -24,9 +24,6 @@ return (
       <Link href="/">About</Link>
     </li>
     <li>
-      <Link href="/hero">My Hero</Link>
-    </li>
-    <li>
       <Link href="/tribute">Tribute</Link>
     </li>
     <li>
