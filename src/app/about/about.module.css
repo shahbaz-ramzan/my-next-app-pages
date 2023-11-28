@@ -3,6 +3,8 @@
     margin: 0;
     width: 100%;
     box-sizing: border-box;
+    background-color: whitesmoke;
+
 }
 
 .container{
@@ -10,7 +12,6 @@
     flex-direction: column;
     width: 65%;
     min-height: 100px;
-    background-color: whitesmoke;
     margin: auto;
 
 }
@@ -30,8 +31,7 @@
 
 .container p{
     font-size: large;
-    padding: 20px 5px 5px 5px;
-    padding-right: 5px;
+    padding: 20px 5px 15px 5px;
 }
 
 .container h4{

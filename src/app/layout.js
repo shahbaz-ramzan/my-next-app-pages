@@ -18,10 +18,10 @@ return (
       <Link href="/home">Home</Link>
     </li>
     <li>
-      <Link href="/">Contact</Link>
+      <Link href="/contact">Contact</Link>
     </li>
     <li>
-      <Link href="/aboutus">About</Link>
+      <Link href="/about">About</Link>
     </li>
     <li>
       <Link href="/tribute">Tribute</Link>
