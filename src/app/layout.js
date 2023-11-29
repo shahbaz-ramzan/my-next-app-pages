@@ -30,7 +30,7 @@ return (
       <Link href="/survey">Survey App</Link>
     </li>
     <li>
-      <Link href="/">page-4</Link>
+      <Link href="/gallery">Image Gallery App</Link>
     </li>
     <li>
       <Link href="/">page-5</Link>
