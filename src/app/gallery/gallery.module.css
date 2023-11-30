@@ -57,9 +57,16 @@
 }
 
 .gallery Image :hover{
+    width: 200px;
+    height: 200px;
     cursor: pointer;
+    transition: transform 0.2s;
+
 }
 
-.galleryImg :hover{
-    cursor: pointer;
+.galleryImg:hover{
+    /* cursor: pointer; */
+    cursor: zoom-in;
+    transform: scale(1.1);
+
 }
