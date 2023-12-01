@@ -1,0 +1,93 @@
+.wrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #3ce87e;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    min-height: 200px;
+    align-items: center;
+   
+
+}
+
+.header{
+    width: 100%;
+    min-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 5px 5px 25px 5px;
+}
+.formClass{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    min-height: auto;
+    background-color: aliceblue;
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 30px;
+}
+
+.formClass button{
+    margin-top: 20px;
+    font-size: x-large;
+    padding: 5px 0 5px 0;
+    background-color: #3ce87e;
+    border: 0px;
+}
+
+.checkboxClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.eachCheckbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.eachCheckbox label{
+    margin-left: 10px;
+}
+
+.inputfieldsClass{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    
+}
+.inputfieldsClass label{
+    font-size: large;
+    margin-top: 10px;
+}
+
+.inputfieldsClass input{
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.inputfieldsClass select{
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.commentClass{
+    display: flex;
+    flex-direction: column;
+    
+}
+.commentClass label{
+    margin-bottom: 10px;
+}
