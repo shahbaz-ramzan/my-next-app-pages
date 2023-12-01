@@ -32,31 +32,31 @@
 .gallery{
     margin-top: 25px;
     display: grid;
-    grid-template-columns:repeat(5, minmax(200px, 1fr));
+    grid-template-columns:repeat(4, minmax(200px, 1fr));
     column-gap: 15px;
     row-gap: 15px;
     justify-content: center;
     align-items: center;
     @media only screen and  (max-width: 1200px) {
-        grid-template-columns:repeat(4,minmax(200px,1fr)) 
+        grid-template-columns:repeat(3,minmax(200px,1fr)) 
         
     }
     @media only  screen and (max-width : 850px) {
-        grid-template-columns: repeat(3,minmax(200px,1fr));
+        grid-template-columns: repeat(2,minmax(200px,1fr));
         
     }
     @media only screen and (max-width: 650px) {
-        grid-template-columns: repeat(2,minmax(200px,1fr));
+        grid-template-columns: repeat(1,minmax(200px,1fr));
     }
-    @media only screen and (max-width:450px) {
+    /* @media only screen and (max-width:450px) {
         grid-template-columns: repeat(1,minmax(200px,1fr));
         
-    }
+    } */
 
 
 }
 
-.gallery Image :hover{
+.galleryImg :hover{
     width: 200px;
     height: 200px;
     cursor: pointer;
